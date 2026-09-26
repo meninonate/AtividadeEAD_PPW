@@ -1,0 +1,110 @@
+<!--
+
+ATIVIDADE PRÁTICA
+
+Crie uma página chamada Meu perfil acadêmico. A página deverá apresentar informações sobre você, sua formação e um tema de tecnologia que deseja aprender.
+Utilize os exemplos anteriores como referência, mas escreva seus próprios conteúdos.
+Além de entregar o código completo, você deverá explicar como organizou a página e como utilizou o HTML e o CSS.
+
+Requisitos da página
+
+1. Criar o arquivo index.html com a estrutura completa: <!DOCTYPE html>, <html>, <head> e <body>.
+2. No <head>, incluir charset UTF-8, viewport, title e a tag <style>.
+3. No <body>, criar um <h1> com o título Meu perfil acadêmico.
+4. Criar pelo menos duas <div> com classes diferentes, por exemplo perfil e objetivos.
+5. Na primeira <div>, inserir um título, dois parágrafos e uma lista com três interesses.
+6. Na segunda <div>, inserir um título e um texto sobre o que deseja aprender em tecnologia.
+7. Dentro da tag <style>, aplicar pelo menos três cores de texto usando a propriedade color.
+8. Aplicar também background-color, padding e border em pelo menos uma <div>.
+9. Testar a página no navegador e corrigir eventuais erros antes da entrega.
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Perfil Acadêmico</title>
+        
+        <style>
+
+
+            body{
+            
+                background-color: rgb(76, 0, 19);
+                font-family: Arial, Helvetica, sans-serif;
+                margin: auto;
+            
+            }
+
+            h1{
+            
+            text-align: center;
+            color: rgb(248, 248, 248);
+            font-weight: bolder;
+            
+            }
+
+            ol{
+            
+            border: 1px solid rgb(248, 248, 248);
+            border-radius: 10px;
+            padding: 20px 20px 20px 30px;
+            width: 25%;
+            font-weight: bolder;
+            color: gold;
+
+            }
+
+            .perfil{
+            
+            color: rgb(248, 248, 248);
+            padding: 10px 30px 10px 30px;
+            text-align: justify;
+            
+            }
+
+            .objetivos{
+            
+            color: white;
+            padding: 0px 30px 10px 30px;
+            text-align: justify;
+            
+            }
+                                   
+        </style>
+
+    </head>
+
+    <body>
+        
+        <h1>Meu perfil acadêmico</h1>
+
+        <div class="perfil">
+
+            <h2>Nathan de Souza</h2>
+            <p>Cursando atualmente Análise de Desenvolvimento de Sistemas, pretendo seguir carreira na área de programação, criando sites ou, até mesmo, acabar indo mais para a área de games. Porém, possuo muito interessente também na área audiovisual, relacionado a cinema e roteiro.</p>
+
+            <p>Além disso, tenho experiência na parte de design, criação de logotipos e produtos, e também com edição de vídeo profissional, mas nunca apliquei esse conhecimento profissionalmente. O que são apenas hobbies acabam de tornando vontade para aprender mais sobre o assunto e, futuramente, talvez, engressar na área.</p>
+
+            <p>Tenho interesse em:</p>
+
+            <ol>                
+                    <li>Cinema e audiovisual</li>
+                    <li>Criação de Jogos e programação em geral</li>
+                    <li>Edição de vídeo</li>
+            </ol>
+
+        </div>
+
+        <div class="objetivos">
+
+            <h2>Objetivos com o curso</h2>
+
+            <p>A área da tecnologia é o futuro querendo ou não. Por isso, é importante como devemos usá-la ao nosso favor. Busco apreender sobre programação para justamente ingressar nessa área rentável e importante para as empresas. Além disso, como informado anteriormente, desejo aprender programação na área de jogos, juntando a parte de criação que eu gosto bastante, junto com a área da programação na qual estou aprendendo aos poucos.</p>
+
+        </div>
+
+    </body>
+</html>
